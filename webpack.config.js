@@ -1,4 +1,6 @@
 const HWP = require('html-webpack-plugin');
+const MCEP = require('mini-css-extract-plugin');
+
 module.exports = {
   module:{
     rules: [
@@ -16,6 +18,14 @@ module.exports = {
             loader: 'html-loader'
           }
         ]
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          "style-loader",
+          "css-loader",
+          "sass-loader"
+        ]
       }
     ]
   },
@@ -23,6 +33,10 @@ module.exports = {
     new HWP({
       template: "./src/index.html",
       filename: "./index.html"
+    }),
+    new MCEP({
+      filename: "[name].css",
+      chunkFilename: "[id].css"
     })
   ]
 }
