@@ -1,10 +1,14 @@
 import React from 'react';
-import './styles/main.scss';
+import Navbar from "./components/Navbar";
 
-export default function App() {
+import './styles/App.scss';
+
+function App() {
   return (
-    <div>
-      <h1>Hello world!</h1>
+    <div className="App">
+      <Navbar />
     </div>
-  )
+  );
 }
+
+export default App;
