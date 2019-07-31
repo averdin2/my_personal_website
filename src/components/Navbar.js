@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
-import '../styles/style.scss';
+import '../styles/navbar.scss';
 
 class Navbar extends Component {
   constructor(props) {
@@ -25,8 +25,6 @@ class Navbar extends Component {
       }
       console.log(link.style.animation);
     })
-    // Toggles burger icon to X icon
-
   }
   
   render() {
