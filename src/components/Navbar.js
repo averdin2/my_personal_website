@@ -31,7 +31,7 @@ class Navbar extends Component {
     return (
       <div>
         <nav>
-          <div className="nav-title">AV</div>
+          <div className="nav-title">ALEX</div>
             <ul className={this.state.toggleMenuClass ? "nav-active nav-links" : "nav-links"}>
               <li><a href='#'>Home</a></li>
               <li><a href='#'>About Me</a></li>

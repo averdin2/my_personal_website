@@ -1,13 +1,4 @@
-$colors: (
-  darkBluee: #1b2538,
-  blueGray: #9eaeb8,
-  offWhite: #e4eaee
-);
-
-@function color($color-name) {
-  @return map-get($colors, $color-name)
-}
-
+@import "functionsAndVariables";
 
 nav {
   display: flex;
@@ -21,8 +12,8 @@ nav {
 
   .nav-title {
     color: color(blueGray);
-    letter-spacing: 5px;
-    font-size: 30px;
+    letter-spacing: .3rem; //5px;
+    font-size: 2rem; //30px;
     font-weight: bold;
     cursor: pointer;
   }
