@@ -29,14 +29,13 @@ class Navbar extends Component {
   
   render() {
     return (
-      <div>
         <nav>
           <div className="nav-title">ALEX</div>
             <ul className={this.state.toggleMenuClass ? "nav-active nav-links" : "nav-links"}>
               <li><a href='#'>Home</a></li>
-              <li><a href='#'>About Me</a></li>
-              <li><a href='#'>Projects</a></li>
-              <li><a href='#'>Contact</a></li>
+              <li><a href='#about'>About Me</a></li>
+              <li><a href='#projects'>Projects</a></li>
+              <li><a href='#contact'>Contact</a></li>
              </ul>
              <div className={this.state.toggleMenuClass ? "toggle burger-menu" : "burger-menu"} onClick={this.toggleMenu}>
                <div className="line1"></div>
@@ -44,8 +43,6 @@ class Navbar extends Component {
                <div className="line3"></div>
              </div>
         </nav>
-        
-      </div>
     )
   }
 }

@@ -1,0 +1,21 @@
+@import "functionsAndVariables";
+
+.about {
+  width: 100%;
+  //top: 100vh;
+  display: flex;
+  flex-direction: column;
+  //position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12vh;
+  font-family: 'Poppins', sans-serif;
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
 import '../styles/name.scss';
 
 export default class Name extends Component {
