@@ -16,19 +16,22 @@
     background-color: color(blueGray);
     border-radius: 10px;
   }
+
+  h1 {
+    padding-top: 8vh;
+  }
 }
 
 .inner-projects-container {
   width: 90%;
   padding-top: 6vh;
   display: flex;
-  flex-direction: column;
+  //flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
-  h1 {
-    padding-bottom: 3vh;
-  }
+ 
 }
 
 .project {
@@ -50,6 +53,7 @@
     background-color: color(darkBluee);
     color: color(blueGray);
     padding: 14px 25px;
+    margin-top: 10px;
     text-align: center;
     text-decoration: none;
     font-weight: normal;
