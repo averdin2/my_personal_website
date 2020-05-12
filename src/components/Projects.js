@@ -13,6 +13,11 @@ export default function Projects() {
           <p>A web application database to help the LAPD sort thier old murder case files. </p>
           <a href='https://github.com/evanhessler/CrookBook' className='button'>See Code</a>
         </div>
+        <div className="project covid">
+          <h2>Covid-19 Charts</h2>
+          <p>A website that provides data charts for Covid-19 cases.</p>
+          <a href='https://github.com/averdin2/Covid-19-data-charts' className='button'>See Code</a>
+        </div>
         <div className='project dodgers'>
           <h2>Dodgers Scores</h2>
           <p>A website that provides gameday scores for live Dodgers Games. </p>
