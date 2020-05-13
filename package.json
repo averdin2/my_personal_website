@@ -1,5 +1,5 @@
 {
-  "name": "my-website",
+  "name": "my_personal_website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://averdin2.github.io/MyWebsite",
+  "homepage": "https://averdin2.github.io/my_personal_website",
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
