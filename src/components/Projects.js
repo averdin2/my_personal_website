@@ -79,12 +79,18 @@ export default function Projects() {
         <div className="project pomodoro">
           <h2>Pomodoro Timer</h2>
           <p>A React web app that acts as a working Pomodoro Timer. </p>
+          <div className="buttons">
+          <a href=" https://averdin2.github.io/React_Pomodoro/" className="button">
+              See Site
+            </a>
           <a
             href="https://github.com/averdin2/React_Pomodoro"
             className="button"
           >
             See Code
           </a>
+          </div>
+          
         </div>
       </div>
     </div>
