@@ -1,4 +1,4 @@
-@import "functionsAndVariables";
+@import 'functionsAndVariables';
 
 .projects-container {
   width: 100%;
@@ -23,15 +23,14 @@
 }
 
 .inner-projects-container {
-  width: 90%;
-  padding-top: 6vh;
+  width: 70%;
+  margin-top: 6vh;
+  // padding-top: 6vh;
   display: flex;
   //flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
- 
 }
 
 .project {
@@ -49,7 +48,8 @@
   position: relative;
   margin: 0 auto 2em;
 
-  a:link, a:visited {
+  a:link,
+  a:visited {
     background-color: color(darkBluee);
     color: color(blueGray);
     padding: 14px 25px;
@@ -58,7 +58,7 @@
     text-align: center;
     text-decoration: none;
     font-weight: normal;
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
   }
@@ -92,7 +92,7 @@ p {
     font-weight: normal;
     font-size: 1rem;
   }
-  
+
   .project {
     // dont use view anything!
     width: 90%; //60vh;
@@ -107,15 +107,16 @@ p {
     align-items: center;
     position: relative;
     margin: 0 auto 2em;
-  
-    a:link, a:visited {
+
+    a:link,
+    a:visited {
       background-color: color(darkBluee);
       color: color(blueGray);
       padding: 14px 25px;
       text-align: center;
       text-decoration: none;
       font-weight: normal;
-      font-size: 1rem; 
+      font-size: 1rem;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border-radius: 10px;
     }
