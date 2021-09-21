@@ -35,6 +35,9 @@ export default function Projects() {
           <h2>Covid-19 Charts</h2>
           <p>A website that provides data charts for Covid-19 cases.</p>
           <div className="buttons">
+            <a href="https://averdin2.github.io/Covid-19-data-charts/" className="button">
+              See Site
+            </a>
             <a href="https://github.com/averdin2/Covid-19-data-charts" className="button">
               See Code
             </a>
